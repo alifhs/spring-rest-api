@@ -19,10 +19,5 @@ public class DemoApplication {
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return String.format("Hello %s!", name);
 	}
-	git init
-	git add README.md
-	git commit -m "first commit"
-	git branch -M main
-	git remote add origin https://github.com/alifhs/spring-rest-api.git
-	git push -u origin main
+
 }
